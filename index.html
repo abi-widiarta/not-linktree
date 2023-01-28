@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- link aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- link bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Not Linktree</title>
+  </head>
+  <body class="font-['Inter'] h-screen">
+    <div class="overflow-hidden h-full relative bg-[url('/src/assets/bg-mobile.png')] bg-cover bg-no-repeat py-16 px-8 max-w-lg">
+      <div class="mb-16">
+        <h1 data-aos="fade-up" class="text-center text-4xl text-white font-bold mb-2">YO!</h1>
+        <h1 data-aos="fade-up" data-aos-delay="50" class="text-center text-4xl text-white font-bold mb-2">WELCOME</h1>
+        <p data-aos="fade-up" data-aos-delay="100" class="font-['Nunito'] text-center text-md text-white">Not Much Yet, Soon</p>
+      </div>
+      <div class="flex flex-col h-[60%] pt-10">
+        <!-- item 1 -->
+        <div class="relative">
+          <img data-aos="fade-right" data-aos-delay="300" class="aspect-square h-12 absolute top-0 left-2 right-0" src="./src/assets/icon-github.png" alt="icon-github" />
+          <div data-aos="fade-up" data-aos-delay="150" class="item h-14 mb-14 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
+            <a href="#"><h1 class="leading-[56px] text-white text-end text-xl font-semibold tracking-wider">Github</h1></a>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="relative">
+          <img data-aos="fade-right" data-aos-delay="350" class="aspect-square h-12 absolute top-0 left-2 right-0" src="./src/assets/icon-linkedin.png" alt="icon-linkedin" />
+          <div data-aos="fade-up" data-aos-delay="200" class="item h-14 mb-14 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
+            <a href="#"><h1 class="leading-[56px] text-white text-end text-xl font-semibold tracking-wider">LinkedIn</h1></a>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="relative">
+          <img data-aos="fade-right" data-aos-delay="400" class="aspect-square h-11 absolute top-0 left-2 right-0" src="./src/assets/icon-gmail.png" alt="icon-gmail" />
+          <div data-aos="fade-up" data-aos-delay="250" class="item h-14 mb-14 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
+            <a href="#"><h1 class="leading-[56px] text-white text-end text-xl font-semibold tracking-wider">Gmail</h1></a>
+          </div>
+        </div>
+      </div>
+      <footer class="absolute left-0 bottom-6 flex w-full">
+        <p data-aos="zoom-in" data-aos-delay="450" data-aos-anchor=".item" class="text-white text-lg text-center font-Nunito w-full">Not Linktree</p>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
