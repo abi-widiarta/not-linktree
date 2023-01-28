@@ -533,14 +533,6 @@ video {
   right: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.bottom-4 {
-  bottom: 1rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -559,10 +551,6 @@ video {
 
 .mb-20 {
   margin-bottom: 5rem;
-}
-
-.mt-auto {
-  margin-top: auto;
 }
 
 .flex {
@@ -619,10 +607,6 @@ video {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -630,11 +614,6 @@ video {
 
 .border-white\/60 {
   border-color: rgb(255 255 255 / 0.6);
-}
-
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[url\(\'\/src\/assets\/bg-desktop\.webp\'\)\] {
