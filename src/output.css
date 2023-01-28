@@ -664,18 +664,13 @@ video {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
 }
 
 .font-bold {
@@ -708,6 +703,14 @@ video {
 .clip-path-mypolygon {
   -webkit-clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+html,
+body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
 }
 
 .item {
