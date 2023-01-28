@@ -21,47 +21,70 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>Abi Widiarta || Not Linktree</title>
   </head>
-  <body class="md:py-16 font-['Inter'] h-screen landscape:h-full bg-[url('/src/assets/bg-desktop.png')] bg-cover bg-no-repeat">
-    <div class="overflow-hidden m-auto h-screen sm:h-[80%] relative bg-[url('/src/assets/bg-mobile-dark.webp')] bg-cover bg-no-repeat py-12 px-8 max-w-md md:max-w-sm md:shadow-2xl md:shadow-white">
-      <div class="mb-16">
-        <h1 data-aos="fade-up" class="text-center text-4xl text-white font-bold mb-2">YO!</h1>
-        <h1 data-aos="fade-up" data-aos-delay="50" class="text-center text-4xl text-white font-bold mb-2">WELCOME</h1>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2EDF301VX5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-2EDF301VX5");
+  </script>
+  <body class="select-none md:py-16 font-['Inter'] h-screen landscape:h-full bg-[url('/src/assets/bg-desktop.webp')] bg-cover bg-no-repeat">
+    <div class="relative sm:border-2 border-white wrapper overflow-x-hidden h-full m-auto sm:h-[80%] bg-[url('/src/assets/bg-mobile-dark.webp')] bg-cover bg-no-repeat pt-12 pb-2 px-8 max-w-md md:max-w-sm md:shadow-2xl md:shadow-white">
+      <div data-tilt data-tilt-full-page-listening class="title-wrapper mb-16">
+        <h1 data-aos="fade-up" class="title translateZ1 text-center text-4xl text-white font-bold mb-2">YO!</h1>
+        <h1 data-aos="fade-up" data-aos-delay="50" class="text-center translateZ2 text-4xl text-white font-bold mb-2">WELCOME</h1>
         <p data-aos="fade-up" data-aos-delay="100" class="font-['Nunito'] text-center text-md text-white">Just a boy interested in front-end dev</p>
         <p data-aos="fade-up" data-aos-delay="100" class="font-['Nunito'] text-center text-md text-white">Not Much Yet, Soon</p>
       </div>
-      <div class="flex flex-col h-[60%] pt-2">
+      <div class="flex flex-col relative pt-2">
         <!-- item 1 -->
         <div class="relative">
           <a href="https://github.com/abi-widiarta" target="_blank">
-            <img data-aos="fade-right" data-aos-delay="300" class="aspect-square h-12 absolute top-0 left-2 right-0" src="./src/assets/icon-github.png" alt="icon-github" />
-            <div data-aos="fade-up" data-aos-delay="150" class="item mb-14 py-4 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
+            <img data-aos="fade-right" data-aos-delay="300" data-aos-anchor=".title" class="aspect-square h-12 absolute top-0 left-2 right-0" src="./src/assets/icon-github.png" alt="icon-github" />
+            <div data-aos="fade-up" data-aos-delay="150" data-aos-anchor=".title" class="item mb-14 py-4 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
               <h1 class="text-white text-end text-xl font-semibold tracking-wider">Github</h1>
             </div>
           </a>
         </div>
         <!-- item 2 -->
         <div class="relative">
-          <a href="https://www.linkedin.com/in/abi-widiarta/">
-            <img data-aos="fade-right" data-aos-delay="350" class="aspect-square h-12 absolute top-0 left-2 right-0" src="./src/assets/icon-linkedin.png" alt="icon-linkedin" />
-            <div data-aos="fade-up" data-aos-delay="200" class="item mb-14 py-4 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
+          <a href="https://www.linkedin.com/in/abi-widiarta/" target="_blank">
+            <img data-aos="fade-right" data-aos-delay="350" data-aos-anchor=".title" class="aspect-square h-12 absolute top-0 left-2 right-0" src="./src/assets/icon-linkedin.png" alt="icon-linkedin" />
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-anchor=".title" class="item mb-14 py-4 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
               <h1 class="text-white text-end text-xl font-semibold tracking-wider">LinkedIn</h1>
             </div>
           </a>
         </div>
         <!-- item 3 -->
         <div class="relative">
-          <a href="mailto: abiwidiarta03@gmai.com">
-            <img data-aos="fade-right" data-aos-delay="400" class="aspect-square h-11 absolute top-0 left-2 right-0" src="./src/assets/icon-gmail.png" alt="icon-gmail" />
-            <div data-aos="fade-up" data-aos-delay="250" class="item mb-14 py-4 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
+          <a href="mailto: abiwidiarta03@gmail.com" target="_blank">
+            <img data-aos="fade-right" data-aos-delay="400" data-aos-anchor=".title" class="aspect-square h-11 absolute top-0 left-2 right-0" src="./src/assets/icon-gmail.png" alt="icon-gmail" />
+            <div data-aos="fade-up" data-aos-delay="250" data-aos-anchor=".title" class="item mb-20 py-4 border border-white/60 w-full pr-4 backdrop-blur-sm clip-path-mypolygon">
               <h1 class="text-white text-end text-xl font-semibold tracking-wider">Gmail</h1>
             </div>
           </a>
         </div>
+        <footer class="absolute left-0 bottom-0 flex w-full">
+          <p data-aos="zoom-in" data-aos-delay="450" data-aos-anchor=".title" class="text-white text-lg text-center font-Nunito w-full">Not Linktree</p>
+        </footer>
       </div>
-      <footer class="absolute left-0 bottom-6 flex w-full">
-        <p data-aos="zoom-in" data-aos-delay="450" data-aos-anchor=".item" class="text-white text-lg text-center font-Nunito w-full">Not Linktree</p>
-      </footer>
     </div>
+    <script type="text/javascript" src="./src/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".box"), {
+        max: 10,
+        speed: 400,
+        gyroscope: true, // Boolean to enable/disable device orientation detection,
+        gyroscopeMinAngleX: -60, // This is the bottom limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the left border of the element;
+        gyroscopeMaxAngleX: 60, // This is the top limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the right border of the element;
+        gyroscopeMinAngleY: -60, // This is the bottom limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the top border of the element;
+        gyroscopeMaxAngleY: 60, // This is the top limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the bottom border of the element;
+      });
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
